@@ -1,0 +1,119 @@
+.color1 {
+    color: #1f6e7b;
+}
+
+.color2 {
+    color: #175e6b;
+}
+
+.color3 {
+    color: #104e5b;
+}
+
+.color4 {
+    color: #083e4a;
+}
+
+.color5 {
+    color: #002e3a;
+}
+
+/* Estilos adicionales para el cuerpo de la página */
+body {
+    background-color: #ebe7e0; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+h1 {
+    margin-top: 50px; /* Margen superior para el encabezado */
+    text-align: center; /* Centrar el texto */
+}
+
+form {
+    margin-top: 20px; /* Margen superior para los formularios */
+    text-align: center; /* Centrar el contenido del formulario */
+}
+
+input[type="submit"] {
+    background-color: #44749d; /* Color de fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    text-align: center; /* Centrar el texto del botón */
+    text-decoration: none; /* Elimina la decoración del texto */
+    display: inline-block; /* Hace que el botón se muestre como un bloque */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Borde redondeado del botón */
+    margin-top: 10px; /* Margen superior para el botón */
+}
+
+input[type="date"] {
+    padding: 5px; /* Relleno del campo de fecha */
+    border-radius: 5px; /* Borde redondeado del campo de fecha */
+    border: 1px solid #bdb8ad; /* Borde del campo de fecha */
+    margin-top: 10px; /* Margen superior para el campo de fecha */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    margin-top: 20px; /* Margen superior para la tabla */
+}
+
+table th, table td {
+    padding: 10px; /* Relleno para las celdas de la tabla */
+    text-align: left; /* Alinear el texto a la izquierda en las celdas */
+}
+
+table th {
+    background-color: #44749d; /* Color de fondo del encabezado de la tabla */
+    color: white; /* Color del texto del encabezado de la tabla */
+}
+
+table td {
+    background-color: #c6d4e1; /* Color de fondo de las celdas de la tabla */
+}
+
+/* Estilos para los botones en los formularios */
+form {
+    margin-top: 20px; /* Margen superior para los formularios */
+    text-align: center; /* Centrar el contenido del formulario */
+}
+
+form input[type="submit"] {
+    background-color: #44749d; /* Color de fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    text-align: center; /* Centrar el texto del botón */
+    text-decoration: none; /* Elimina la decoración del texto */
+    display: inline-block; /* Hace que el botón se muestre como un bloque */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Borde redondeado del botón */
+    margin-top: 10px; /* Margen superior para el botón */
+    margin-right: 5px; /* Margen derecho para el botón */
+}
+
+/* Estilos para centrar la imagen y el formulario en la misma línea */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-content img {
+    margin-right: 20px; /* Espacio entre la imagen y el formulario */
+}
