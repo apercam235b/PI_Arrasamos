@@ -1,5 +1,9 @@
 # Sistema de Seguimiento de Clases en el Aula
 
+# Arrasamos
+
+![arrasamos](https://github.com/apercam235b/PI_Arrasamos/assets/146701978/b24a45c4-feb7-4ff7-8090-bdda7861a3c1)
+
 ## Descripción del Proyecto
 
 Este proyecto tiene como objetivo la creación de un asistente en clase que atienda a órdenes indicadas por el profesor durante el desarrollo de las clases. El sistema se implementará sobre una Raspberry Pi, conectada a una cámara con dos ejes de movimiento, y utilizando contenedores Docker para su estructura. A continuación se detallan las características principales del proyecto:
